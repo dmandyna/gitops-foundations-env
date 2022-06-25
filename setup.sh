@@ -1,2 +1,2 @@
-#!/bin/bash
-find . -type f -exec sed -i 's/{dockerHubUsername}/'$1'/g' {} +
+# !/bin/zsh
+find . -type f -exec gsed -i 's/mandyn/'$1'/g' {} +
